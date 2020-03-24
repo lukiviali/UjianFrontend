@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Dobleh",
+      "password": "maungapain",
+      "role": "admin"
+    },
+    {
+      "password": "setan2",
+      "username": "Kuda",
+      "role": "user",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "NMD Shoes",
+      "image": "./image/nmd1.jpg",
+      "stok": 10,
+      "kategoriId": 1,
+      "harga": 1000000,
+      "deskripsi": "",
+      "id": 1
+    },
+    {
+      "name": "Trackpants",
+      "image": "./image/celana1.jpg",
+      "stok": 100,
+      "kategoriId": 2,
+      "harga": 150000,
+      "deskripsi": "",
+      "id": 2
+    },
+    {
+      "name": "Star Wars T-Shirt",
+      "image": "./image/kaos1.jpg",
+      "stok": 100,
+      "kategoriId": 3,
+      "harga": 100000,
+      "deskripsi": "",
+      "id": 3
+    },
+    {
+      "name": "Mexico Jacket",
+      "image": "./image/jaket1.jpg",
+      "stok": 100,
+      "kategoriId": 3,
+      "harga": 400000,
+      "deskripsi": "",
+      "id": 4
+    },
+    {
+      "name": "Hoodie Entah Apa",
+      "image": "./image/hoodie1.jpg",
+      "stok": 100,
+      "kategoriId": 3,
+      "harga": 400000,
+      "deskripsi": "",
+      "id": 5
+    }
+  ],
+  "kategoris": [
+    {
+      "id": 1,
+      "nama": "Sepatu"
+    },
+    {
+      "id": 2,
+      "nama": "Celana"
+    },
+    {
+      "id": 3,
+      "nama": "Atasan"
+    }
+  ],
+  "transaction": [
+    {
+      "status": "oncart",
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 1,
+      "productId": 2,
+      "qty": 1,
+      "id": 1
+    },
+    {
+      "transactionId": 1,
+      "productId": 2,
+      "qty": 1,
+      "id": 3
+    },
+    {
+      "transactionId": 1,
+      "productId": 1,
+      "qty": 1,
+      "id": 4
+    },
+    {
+      "transactionId": 1,
+      "productId": 4,
+      "qty": 1,
+      "id": 5
+    }
+  ]
+}
